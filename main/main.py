@@ -1,5 +1,6 @@
 import os
 import shutil
+import sys
 
 def create_folder_with_docs():
     if getattr(sys, 'frozen', False):
